@@ -1,20 +1,49 @@
-import { Fragment, Link, LogoDBOImage, AiOutlineHome, AiOutlineTeam, AiTwotoneCalendar } from "libraries";
-
-const { showMenu } = false;
+import { Fragment, LogoDBOImage, AiOutlineTeam, AiOutlineShoppingCart, GiFactory, useLocation, useSelector,
+    useDispatch, useNavigate
+} from "libraries";
+import { menuSelector, toggleMenu } from "modules";
 
 const Sidebar = () => {
+
+    const location = useLocation();
+    const pathName = location.pathname.split('/');
+    const showMenu = useSelector(menuSelector);
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+
+    const closeModal = () => {
+        dispatch(toggleMenu(false));
+    };
+
+    const handleToLink = (link) => {
+        closeModal();
+        navigate(link)
+    };
+
     return (
         <Fragment>
             {showMenu &&
-                <div className="overlay" />}
+                <div className="overlay" onClick={closeModal} />}
                 <div className={`sidebar-container ${showMenu ? 'show' : ''}`}>
                 <div className="logo mb-16p">
                     <img src={LogoDBOImage} alt={'logoDBO'} />
                 </div>
                 <div className="sidebar-menu">
-                    <Link to="/"><AiOutlineHome className="icon" /> Beranda</Link>
-                    <Link to="/" className="active"><AiOutlineTeam className="icon" /> Driver Management</Link>
-                    <Link to="/"><AiTwotoneCalendar className="icon" /> Pickup</Link>
+                    <a className={`${pathName[1] === 'customer' ? 'active' : ''}`}
+                       onClick={() => handleToLink('/customer')}
+                    >
+                        <AiOutlineTeam className="icon" /> Customer
+                    </a>
+                    <a className={`${pathName[1] === 'supplier' ? 'active' : ''}`}
+                       onClick={() => handleToLink('/supplier')}
+                    >
+                        <GiFactory className="icon" /> Supplier
+                    </a>
+                    <a className={`${pathName[1] === 'order' ? 'active' : ''}`}
+                       onClick={() => handleToLink('/order')}
+                    >
+                        <AiOutlineShoppingCart className="icon" /> Order
+                    </a>
                 </div>
             </div>
         </Fragment>
