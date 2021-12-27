@@ -1,0 +1,8 @@
+const actionType = {
+    GET_CUSTOMER: 'GET_CUSTOMER',
+    POST_CUSTOMER: 'POST_CUSTOMER',
+    DELETE_CUSTOMER: 'DELETE_CUSTOMER',
+    UPDATE_CUSTOMER: 'UPDATE_CUSTOMER',
+};
+
+export default actionType;
