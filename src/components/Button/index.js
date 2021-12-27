@@ -1,3 +1,5 @@
+import './button.scss';
+
 const Button = ({type, children, ...props}) => {
     return (
         <button data-testid="button" className={`button ${type}`} {...props}>{children}</button>

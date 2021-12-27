@@ -6,15 +6,18 @@ import { Helmet } from "react-helmet";
 import Notifications from "react-notify-toast";
 
 // React Icon
-import { AiOutlineLeft, AiOutlineRight, AiOutlineMenu, AiOutlineTeam, AiOutlineShoppingCart } from 'react-icons/ai';
+import { AiOutlineLeft, AiOutlineRight, AiOutlineMenu, AiOutlineTeam, AiOutlineShoppingCart, AiOutlineSearch,
+    AiOutlinePlus
+} from 'react-icons/ai';
 import { GiFactory } from 'react-icons/gi';
+import { BiDetail } from 'react-icons/bi';
 
 // Assets Image
 import LogoDBOImage from "assets/images/logo.png";
 import userImage from "assets/images/user.png";
 
 export { ReactDOM, moment, axios, thunk, AiOutlineLeft, AiOutlineRight, LogoDBOImage, userImage, AiOutlineMenu, Helmet,
-    AiOutlineTeam, Notifications, AiOutlineShoppingCart, GiFactory
+    AiOutlineTeam, Notifications, AiOutlineShoppingCart, GiFactory, AiOutlineSearch, AiOutlinePlus, BiDetail
 };
 
 export * from "react";

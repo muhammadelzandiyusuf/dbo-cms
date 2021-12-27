@@ -1,21 +1,21 @@
-import { AiOutlineLeft, AiOutlineRight, useHistory } from "libraries"
+import { AiOutlineLeft, AiOutlineRight, useNavigate } from "libraries"
 import "./pagination.scss";
 
 const Pagination = ({total, limit, current}) => {
     const totalPage = Math.ceil(total / limit);
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleNextPage = () => {
         if (current < totalPage) {
             const newPage = current + 1;
-            history.push(`?page=${newPage}`);
+            navigate(`?page=${newPage}`);
         }
     };
 
     const handlePreviousPage = () => {
         if (current > 1) {
             const newPage = current - 1;
-            history.push(`?page=${newPage}`);
+            navigate(`?page=${newPage}`);
         }
     };
 

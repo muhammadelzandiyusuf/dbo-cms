@@ -2,6 +2,7 @@
 @import './colors';
 @import './spacing';
 @import './typography';
+@import './const';
 
 html, body{
   height: 100%;
@@ -52,5 +53,23 @@ a{color: inherit;text-decoration: inherit;}
   top: 30px !important;
   span{
     border-radius: 5px !important;
+  }
+}
+
+.mobile-view {
+  display: none;
+}
+
+.desktop-view {
+  display: block;
+}
+
+@media(max-width: $resolution-mobile){
+  .mobile-view {
+    display: block;
+  }
+
+  .desktop-view {
+    display: none;
   }
 }
