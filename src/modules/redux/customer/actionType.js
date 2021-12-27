@@ -3,6 +3,7 @@ const actionType = {
     POST_CUSTOMER: 'POST_CUSTOMER',
     DELETE_CUSTOMER: 'DELETE_CUSTOMER',
     UPDATE_CUSTOMER: 'UPDATE_CUSTOMER',
+    SEARCH_CUSTOMER: 'SEARCH_CUSTOMER',
 };
 
 export default actionType;

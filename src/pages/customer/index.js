@@ -1,6 +1,6 @@
-import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState } from "libraries";
+import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState, useDispatch, useNavigate } from "libraries";
 import { getCustomers } from "services";
-import { customerSelector } from "modules";
+import { customerSelector, searchCustomer } from "modules";
 import customerHeader from 'assets/dummy/customerHeader.json';
 
 import PageHeader from 'components/PageHeader';
@@ -11,7 +11,9 @@ import TableCustom from 'components/TableCustom';
 
 const Customer = () => {
 
+    const dispatch = useDispatch();
     const customers = useSelector(customerSelector);
+    const navigate = useNavigate();
     const [ isLoading, setIsLoading ] = useState(true);
 
     useEffect(() => {
@@ -23,11 +25,17 @@ const Customer = () => {
         getCustomer();
     }, []);
 
+    const onChangeSearch = (value) => {
+        dispatch(searchCustomer(value));
+        navigate('/customer');
+    };
+
     return (
         <Fragment>
             <div className="driver-container">
                 <PageHeader title="Customer Management" desc="Data customer Depoguna Bangunan Online">
                     <Textfield
+                        onChange={(e) => onChangeSearch(e.target.value)}
                         placeholder="Cari Customer"
                         icon={<AiOutlineSearch className="icon font-18 color-primary" />}
                     />

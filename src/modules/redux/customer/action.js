@@ -19,3 +19,8 @@ export const updateCustomer = (customer) => ({
     type: actionType.UPDATE_CUSTOMER,
     data: customer
 });
+
+export const searchCustomer = (customer) => ({
+    type: actionType.SEARCH_CUSTOMER,
+    data: customer
+});

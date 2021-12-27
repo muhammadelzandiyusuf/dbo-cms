@@ -57,6 +57,11 @@ const TableCustom = ({headers, bodies}) => {
                     </div>
                 ))}
             </div>
+            {bodies.length === 0 &&
+                <div className="alert">
+                    <h5 className="color-grey font-500">Data yang anda cari tidak ditemukan</h5>
+                </div>
+            }
             <Pagination total={bodies.length} limit={limit} current={getSlice.page} />
         </div>
     )
