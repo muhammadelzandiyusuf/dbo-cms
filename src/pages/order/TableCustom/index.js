@@ -64,7 +64,7 @@ const TableCustom = ({headers, bodies, handleDetail}) => {
                         <div className={'table-box mt-16p'} key={index}>
                             <div className={'table-label'}>{body.orderNumber}</div>
                             <div className={'table-label'}>{body.user.firstName} {body.user.lastName}</div>
-                            <div className={'table-label'}>{body.payment.paymentMethod.name}}</div>
+                            <div className={'table-label'}>{body.payment.paymentMethod.name}</div>
                             <div className={'table-label'}>{convertDate(body.created)}</div>
                             <div className={'table-label'}>
                                 <NumberFormat value={body.productHighlight.grandTotal} displayType={'text'}

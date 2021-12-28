@@ -10,6 +10,7 @@ const CustomButton = lazy(() => import('components/Button'));
 const Textfield = lazy(() => import('components/Textfield'));
 const Loading = lazy(() => import('components/Loading'));
 const TableCustom = lazy(() => import('pages/order/TableCustom'));
+const DetailOrder = lazy(() => import('pages/order/DetailOrder'));
 
 const Order = () => {
 
@@ -17,6 +18,8 @@ const Order = () => {
     const orders = useSelector(orderSelector);
     const navigate = useNavigate();
     const [ isLoading, setIsLoading ] = useState(false);
+    const [ isDetail, setIsDetail ] = useState(false);
+    const [ details, setDetails ] = useState([]);
 
     useEffect(() => {
         const getOrder = async () => {
@@ -31,6 +34,14 @@ const Order = () => {
         dispatch(searchOrder(value));
         navigate('/order');
     };
+
+    const handleDetail = (id) => {
+        const detail = orders.find(order => order.orderNumber === id);
+        if (detail) {
+            setDetails(detail);
+        }
+        setIsDetail(true);
+    }
 
     return (
         <Fragment>
@@ -56,6 +67,7 @@ const Order = () => {
                         <TableCustom
                             headers={orderHeader}
                             bodies={orders}
+                            handleDetail={handleDetail}
                         />
                     </div>
                 ):(
@@ -63,6 +75,11 @@ const Order = () => {
                         <h5 className="color-grey font-500">Data yang anda cari tidak ditemukan</h5>
                     </div>
                 )}
+                <DetailOrder
+                    show={isDetail}
+                    onHide={() => setIsDetail(false)}
+                    details={details}
+                />
             </div>
         </Fragment>
     )
