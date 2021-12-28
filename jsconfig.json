@@ -40,6 +40,9 @@
       ],
       "services": [
         "./services"
+      ],
+      "errors": [
+        "./errors"
       ]
     }
   }
