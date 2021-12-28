@@ -4,7 +4,7 @@ import 'assets/scss/tableCustom.scss';
 
 import Pagination from 'components/Pagination';
 
-const TableCustom = ({headers, bodies, handleDetailCustomer, handleShowDeleteCustomer, handleShowFormEdit}) => {
+const TableCustom = ({headers, bodies, handleShowDelete, handleShowFormEdit}) => {
 
     const location = useLocation();
     const params = new URLSearchParams(location.search);
@@ -28,24 +28,16 @@ const TableCustom = ({headers, bodies, handleDetailCustomer, handleShowDeleteCus
                         const identity = getIdentityFromHref(body.href);
                         return (
                             <tr key={index}>
-                                <td>{body.firstName} {body.lastName}</td>
-                                <td>{body.email}</td>
-                                <td>{body.phoneNumber}</td>
-                                <td>{convertDate(body.dateJoined)}</td>
+                                <td>{body.name}</td>
+                                <td>{body.code}</td>
                                 <td>
-                                    <span
-                                        onClick={() => handleDetailCustomer(identity)}
-                                        className={'mr-16p cursor-pointer'}
-                                    >
-                                        <BiDetail className={'icon'} /> Detail
-                                    </span>
                                     <span
                                         onClick={() => handleShowFormEdit(identity)}
                                         className={'mr-16p cursor-pointer'}>
                                         <AiOutlineEdit className={'icon'} /> Edit
                                     </span>
                                     <span
-                                        onClick={() => handleShowDeleteCustomer(identity)}
+                                        onClick={() => handleShowDelete(identity)}
                                         className={'cursor-pointer'}
                                     >
                                         <BsTrash className={'icon'} /> Delete
@@ -68,24 +60,16 @@ const TableCustom = ({headers, bodies, handleDetailCustomer, handleShowDeleteCus
                     const identity = getIdentityFromHref(body.href);
                     return (
                         <div className={'table-box mt-16p'} key={index}>
-                            <div className={'table-label'}>{body.firstName} {body.lastName}</div>
-                            <div className={'table-label'}>{body.email}</div>
-                            <div className={'table-label'}>{body.phoneNumber}</div>
-                            <div className={'table-label'}>{convertDate(body.dateJoined)}</div>
+                            <div className={'table-label'}>{body.name}</div>
+                            <div className={'table-label'}>{body.code}</div>
                             <div className={'table-label'}>
-                                <span
-                                    onClick={() => handleDetailCustomer(identity)}
-                                    className={'mr-16p cursor-pointer'}
-                                >
-                                    <BiDetail className={'icon'} /> Detail
-                                </span>
                                 <span
                                     onClick={() => handleShowFormEdit(identity)}
                                     className={'mr-16p cursor-pointer'}>
                                         <AiOutlineEdit className={'icon'} /> Edit
                                     </span>
                                 <span
-                                    onClick={() => handleShowDeleteCustomer(identity)}
+                                    onClick={() => handleShowDelete(identity)}
                                     className={'cursor-pointer'}
                                 >
                                         <BsTrash className={'icon'} /> Delete

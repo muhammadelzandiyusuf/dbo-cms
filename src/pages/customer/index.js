@@ -150,8 +150,9 @@ const Customer = () => {
                 <FormDelete
                     show={isDeleteShow}
                     onHide={() => setIsDeleteShow(false)}
-                    customerDetail={customerDetail}
-                    handleDeleteCustomer={handleDeleteCustomer}
+                    name={customerDetail?.firstName}
+                    handleDelete={handleDeleteCustomer}
+                    message={'Apakah kamu yakin akan menghapus data customer'}
                 />
                 <FormAdd
                     show={isAddForm}

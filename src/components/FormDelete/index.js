@@ -12,12 +12,12 @@ const FormDelete = (props) => {
             centered
         >
             <Modal.Body className="show-grid">
-                <p>Apakah kamu yakin akan menghapus data customer <b>{props.customerDetail.firstName}</b> ?</p>
+                <p>{props.message} <b>{props.name}</b> ?</p>
                 <div className={'text-align-right'}>
                     <Button variant="outline-danger" className={'mr-8p'} onClick={props.onHide}>
                         Tidak
                     </Button>
-                    <Button variant="danger" onClick={() => props.handleDeleteCustomer(1)}>Ya</Button>
+                    <Button variant="danger" onClick={() => props.handleDelete(1)}>Ya</Button>
                 </div>
             </Modal.Body>
         </Modal>

@@ -1,18 +1,23 @@
-import { Customer, Order, Auth } from "pages";
+import { Customer, Order, Auth, Supplier } from "pages";
 
 const appRoutes = [
     {
-        name: "Customer",
+        title: "Customer",
         element: <Customer />,
         path: "/customer"
     },
     {
-        name: "Order",
+        title: "Order",
         element: <Order />,
         path: "/order"
     },
     {
-        name: "Auth",
+        title: "Supplier",
+        element: <Supplier />,
+        path: "/supplier"
+    },
+    {
+        title: "Auth",
         element: <Auth />,
         path: "/",
         exact: true,
