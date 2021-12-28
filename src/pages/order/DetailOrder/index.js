@@ -1,4 +1,4 @@
-import { Modal, Container, Row, Col, Image, Fragment } from "libraries";
+import { Modal, Container, Row, Col, Image } from "libraries";
 import { convertDate } from "utils";
 import NumberFormat from 'react-number-format';
 

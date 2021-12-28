@@ -4,7 +4,7 @@ import ApiRequest from "configs/api/config";
 const API = {};
 
 // Auth
-API.login = ApiRequest.post(baseUrl.auth.login);
+API.login = ApiRequest.get(baseUrl.auth.login);
 
 // Customer
 API.postCustomer = ApiRequest.post(baseUrl.customer);

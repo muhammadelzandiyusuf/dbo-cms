@@ -1,4 +1,4 @@
-import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState, useDispatch, useNavigate,
+import { Fragment, AiOutlineSearch, useEffect, useSelector, useState, useDispatch, useNavigate,
     Helmet, lazy
 } from "libraries";
 import { orderSelector, searchOrder } from "modules";
@@ -6,7 +6,6 @@ import { getOrders } from "services";
 import orderHeader from 'assets/dummy/orderHeader.json';
 
 const PageHeader = lazy(() => import('components/PageHeader'));
-const CustomButton = lazy(() => import('components/Button'));
 const Textfield = lazy(() => import('components/Textfield'));
 const Loading = lazy(() => import('components/Loading'));
 const TableCustom = lazy(() => import('pages/order/TableCustom'));
@@ -55,10 +54,6 @@ const Order = () => {
                         placeholder="Cari Order"
                         icon={<AiOutlineSearch className="icon font-18 color-primary" />}
                     />
-                    <CustomButton type="primary">
-                        <span className="text-uppercase">Tambah Order</span>
-                        <AiOutlinePlus className="font-18 ml-8p" />
-                    </CustomButton>
                 </PageHeader>
                 {isLoading &&
                     <Loading />}

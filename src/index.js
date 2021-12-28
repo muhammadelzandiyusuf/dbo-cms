@@ -2,11 +2,14 @@ import { ReactDOM, Provider, BrowserRouter } from "libraries"
 import { store } from "modules";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CookiesProvider } from 'react-cookie';
 
 const app = (
     <Provider store={store}>
         <BrowserRouter>
-            <App />
+            <CookiesProvider>
+                <App />
+            </CookiesProvider>
         </BrowserRouter>
     </Provider>
 );
