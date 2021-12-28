@@ -56,13 +56,13 @@ a{color: inherit;text-decoration: inherit;}
   }
 }
 
-.mobile-view {
-  display: none;
-}
-
-.desktop-view {
-  display: block;
-}
+.mobile-view {display: none;}
+.desktop-view {display: block;}
+.table>:not(:first-child){border-top: none !important;}
+.table>:not(caption)>*>*{border-bottom: none;}
+.w-100{width: 100%;}
+.text-align-right{text-align: right !important;}
+.w-30{width: 30%}
 
 @media(max-width: $resolution-mobile){
   .mobile-view {

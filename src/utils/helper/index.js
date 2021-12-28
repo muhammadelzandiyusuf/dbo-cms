@@ -57,3 +57,8 @@ export const getSliceData = (params, limit) => {
         page,
     };
 };
+
+export const getIdentityFromHref = (href) => {
+    const url = href.replace(/\/$/, '');
+    return url.substring(url.lastIndexOf('/') + 1);
+};

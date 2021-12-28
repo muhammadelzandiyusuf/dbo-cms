@@ -29,21 +29,21 @@ const Sidebar = () => {
                     <img src={LogoDBOImage} alt={'logoDBO'} />
                 </div>
                 <div className="sidebar-menu">
-                    <a className={`${pathName[1] === 'customer' ? 'active' : ''}`}
+                    <div className={`${pathName[1] === 'customer' ? 'active' : ''}`}
                        onClick={() => handleToLink('/customer')}
                     >
                         <AiOutlineTeam className="icon" /> Customer
-                    </a>
-                    <a className={`${pathName[1] === 'supplier' ? 'active' : ''}`}
+                    </div>
+                    <div className={`${pathName[1] === 'supplier' ? 'active' : ''}`}
                        onClick={() => handleToLink('/supplier')}
                     >
                         <GiFactory className="icon" /> Supplier
-                    </a>
-                    <a className={`${pathName[1] === 'order' ? 'active' : ''}`}
+                    </div>
+                    <div className={`${pathName[1] === 'order' ? 'active' : ''}`}
                        onClick={() => handleToLink('/order')}
                     >
                         <AiOutlineShoppingCart className="icon" /> Order
-                    </a>
+                    </div>
                 </div>
             </div>
         </Fragment>

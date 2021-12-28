@@ -15,3 +15,30 @@ export const getCustomers = async (payload = {}) => {
     dispatch(getCustomer(data));
     return data;
 };
+
+export const deleteCustomer = async (payload = {}) => {
+    const [res, err] = await handleAsync(API.getCustomer(payload));
+    if (err) {
+        throw err;
+    }
+
+    return res;
+};
+
+export const postCustomer = async (payload = {}) => {
+    const [res, err] = await handleAsync(API.getCustomer(payload));
+    if (err) {
+        throw err;
+    }
+
+    return res;
+};
+
+export const updateCustomer = async (payload = {}) => {
+    const [res, err] = await handleAsync(API.getCustomer(payload));
+    if (err) {
+        throw err;
+    }
+
+    return res;
+};

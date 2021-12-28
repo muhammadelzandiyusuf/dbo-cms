@@ -1,5 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import { appRoutes } from "routes";
+
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'assets/scss/general.scss';
 
 import BaseContainer from "containers/BaseContainer";

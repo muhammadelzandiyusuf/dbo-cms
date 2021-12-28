@@ -21,7 +21,7 @@ const Pagination = ({total, limit, current}) => {
 
     return (
         <div className="d-flex flex-column align-items-center mt-24p mb-24p">
-            <div className="pagintaion">
+            <div className="simple-pagintaion">
                 <h5 onClick={handlePreviousPage} className={(current === 1 ? 'color-grey' : 'cursor-pointer')}>
                     <AiOutlineLeft className="mr-4p" /> Previous Page
                 </h5>

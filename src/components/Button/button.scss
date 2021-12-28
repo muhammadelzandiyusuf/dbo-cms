@@ -8,9 +8,15 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    text-align: center;
     &.primary{
         background-color: var(--primary-text-color);
         border-color: var(--primary-text-color);
         color: var(--white-text-color);
+    }
+    &.default{
+        background-color: var(--white-background-color);
+        border-color: var(--primary-text-color);
+        color: var(--primary-text-color);
     }
 }

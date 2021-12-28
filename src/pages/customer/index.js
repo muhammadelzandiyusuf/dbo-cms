@@ -1,13 +1,21 @@
-import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState, useDispatch, useNavigate } from "libraries";
-import { getCustomers } from "services";
+import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState, useDispatch, useNavigate,
+    Helmet, lazy
+} from "libraries";
+import { getCustomers, deleteCustomer, postCustomer, updateCustomer } from "services";
 import { customerSelector, searchCustomer } from "modules";
+import { getIdentityFromHref } from "utils";
+import {notify} from "react-notify-toast";
 import customerHeader from 'assets/dummy/customerHeader.json';
 
-import PageHeader from 'components/PageHeader';
-import CustomButton from 'components/Button';
-import Textfield from 'components/Textfield';
-import Loading from 'components/Loading';
-import TableCustom from 'components/TableCustom';
+const PageHeader = lazy(() => import('components/PageHeader'));
+const CustomButton = lazy(() => import('components/Button'));
+const Textfield = lazy(() => import('components/Textfield'));
+const Loading = lazy(() => import('components/Loading'));
+const TableCustom = lazy(() => import('pages/customer/TableCustom'));
+const DetailCustomer = lazy(() => import('pages/customer/DetailCustomer'));
+const FormAdd = lazy(() => import('pages/customer/FormAdd'));
+const FormDelete = lazy(() => import('components/FormDelete'));
+const FormEdit = lazy(() => import('pages/customer/FormEdit'));
 
 const Customer = () => {
 
@@ -15,6 +23,11 @@ const Customer = () => {
     const customers = useSelector(customerSelector);
     const navigate = useNavigate();
     const [ isLoading, setIsLoading ] = useState(true);
+    const [ isDetailShow, setIsDetailShow ] = useState(false);
+    const [ customerDetail, setCustomerDetail ] = useState([]);
+    const [ isDeleteShow, setIsDeleteShow ] = useState(false);
+    const [ isAddForm, setIsAddForm ] = useState(false);
+    const [ isEditForm, setIsEditForm ] = useState(false);
 
     useEffect(() => {
         const getCustomer = async () => {
@@ -30,8 +43,76 @@ const Customer = () => {
         navigate('/customer');
     };
 
+    const handleDetailCustomer = (id) => {
+        const detail = customers.find(customer => getIdentityFromHref(customer.href) === id);
+        if (detail) {
+            setCustomerDetail(detail);
+        }
+        setIsDetailShow(true);
+    }
+
+    const handleShowDeleteCustomer = (id) => {
+        const detail = customers.find(customer => getIdentityFromHref(customer.href) === id);
+        if (detail) {
+            setCustomerDetail(detail);
+        }
+        setIsDeleteShow(true);
+    }
+
+    const handleDeleteCustomer = (id) => {
+        const payload = { url: '/dummy/customer.json', body: { id: id }};
+        deleteCustomer(payload).then(response => {
+            setIsDeleteShow(false);
+            notify.show(`Data customer berhasil dihapus`, 'success');
+        })
+    }
+
+    const handlePostCustomer = (data) => {
+        const payload = {
+            url: '/dummy/customer.json',
+            body: {
+                firstName: data.firstName,
+                lastName: data.lastName,
+                email: data.email,
+                phoneNumber: data.phoneNumber
+            }
+        }
+        postCustomer(payload).then(response => {
+            setIsAddForm(false);
+            notify.show(`Data customer berhasil tersimpan`, 'success');
+        })
+    }
+
+    const handleShowFormEdit = (id) => {
+        const detail = customers.find(customer => getIdentityFromHref(customer.href) === id);
+        console.log(id, detail);
+        if (detail) {
+            setCustomerDetail(detail);
+        }
+        setIsEditForm(true);
+    }
+
+    const handleUpdateCustomer = (data) => {
+        const payload = {
+            url: '/dummy/customer.json',
+            body: {
+                firstName: data.firstName,
+                lastName: data.lastName,
+                email: data.email,
+                phoneNumber: data.phoneNumber
+            }
+        }
+        updateCustomer(payload).then(response => {
+            setIsEditForm(false);
+            notify.show(`Data customer berhasil diupdate`, 'success');
+        })
+    }
+
     return (
         <Fragment>
+            <Helmet>
+                <title>DBO CMS - Customer</title>
+            </Helmet>
             <div className="driver-container">
                 <PageHeader title="Customer Management" desc="Data customer Depoguna Bangunan Online">
                     <Textfield
@@ -39,7 +120,7 @@ const Customer = () => {
                         placeholder="Cari Customer"
                         icon={<AiOutlineSearch className="icon font-18 color-primary" />}
                     />
-                    <CustomButton type="primary">
+                    <CustomButton type="primary" onClick={() => setIsAddForm(true)}>
                         <span className="text-uppercase">Tambah Customer</span>
                         <AiOutlinePlus className="font-18 ml-8p" />
                     </CustomButton>
@@ -48,13 +129,41 @@ const Customer = () => {
                 <Loading />}
                 {!isLoading && customers ? (
                     <div className={'ml-24p mr-24p'}>
-                        <TableCustom headers={customerHeader} bodies={customers} />
+                        <TableCustom
+                            headers={customerHeader}
+                            bodies={customers}
+                            handleDetailCustomer={handleDetailCustomer}
+                            handleShowDeleteCustomer={handleShowDeleteCustomer}
+                            handleShowFormEdit={handleShowFormEdit}
+                        />
                     </div>
                 ):(
                     <div className="alert ml-24p mr-24p">
                         <h5 className="color-grey font-500">Data yang anda cari tidak ditemukan</h5>
                     </div>
                 )}
+                <DetailCustomer
+                    show={isDetailShow}
+                    onHide={() => setIsDetailShow(false)}
+                    customerDetail={customerDetail}
+                />
+                <FormDelete
+                    show={isDeleteShow}
+                    onHide={() => setIsDeleteShow(false)}
+                    customerDetail={customerDetail}
+                    handleDeleteCustomer={handleDeleteCustomer}
+                />
+                <FormAdd
+                    show={isAddForm}
+                    onHide={() => setIsAddForm(false)}
+                    onSubmit={handlePostCustomer}
+                />
+                <FormEdit
+                    show={isEditForm}
+                    onHide={() => setIsEditForm(false)}
+                    onSubmit={handleUpdateCustomer}
+                    customerDetail={customerDetail}
+                />
             </div>
         </Fragment>
     )
