@@ -5,7 +5,7 @@ import { store, getSupplier } from 'modules';
 const { dispatch } = store;
 
 export const getSuppliers = async (payload = {}) => {
-    const [res, err] = await handleAsync(API.getCustomer(payload));
+    const [res, err] = await handleAsync(API.getSupplier(payload));
     if (err) {
         throw err;
     }
@@ -17,7 +17,7 @@ export const getSuppliers = async (payload = {}) => {
 };
 
 export const deleteSupplier = async (payload = {}) => {
-    const [res, err] = await handleAsync(API.getCustomer(payload));
+    const [res, err] = await handleAsync(API.getSupplier(payload));
     if (err) {
         throw err;
     }
@@ -26,7 +26,7 @@ export const deleteSupplier = async (payload = {}) => {
 };
 
 export const postSupplier = async (payload = {}) => {
-    const [res, err] = await handleAsync(API.getCustomer(payload));
+    const [res, err] = await handleAsync(API.getSupplier(payload));
     if (err) {
         throw err;
     }
@@ -35,7 +35,7 @@ export const postSupplier = async (payload = {}) => {
 };
 
 export const updateSupplier = async (payload = {}) => {
-    const [res, err] = await handleAsync(API.getCustomer(payload));
+    const [res, err] = await handleAsync(API.getSupplier(payload));
     if (err) {
         throw err;
     }

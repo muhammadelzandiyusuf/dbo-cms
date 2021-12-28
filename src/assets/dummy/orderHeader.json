@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Order ID"
+  },
+  {
+    "name": "Customer"
+  },
+  {
+    "name": "Payment"
+  },
+  {
+    "name": "Created"
+  },
+  {
+    "name": "Grand Total"
+  }
+]

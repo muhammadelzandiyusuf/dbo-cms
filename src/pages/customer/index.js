@@ -22,7 +22,7 @@ const Customer = () => {
     const dispatch = useDispatch();
     const customers = useSelector(customerSelector);
     const navigate = useNavigate();
-    const [ isLoading, setIsLoading ] = useState(true);
+    const [ isLoading, setIsLoading ] = useState(false);
     const [ isDetailShow, setIsDetailShow ] = useState(false);
     const [ customerDetail, setCustomerDetail ] = useState([]);
     const [ isDeleteShow, setIsDeleteShow ] = useState(false);
@@ -85,7 +85,6 @@ const Customer = () => {
 
     const handleShowFormEdit = (id) => {
         const detail = customers.find(customer => getIdentityFromHref(customer.href) === id);
-        console.log(id, detail);
         if (detail) {
             setCustomerDetail(detail);
         }

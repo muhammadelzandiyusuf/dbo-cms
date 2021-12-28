@@ -1,10 +1,69 @@
-import { Fragment } from "libraries";
+import { Fragment, AiOutlineSearch, AiOutlinePlus, useEffect, useSelector, useState, useDispatch, useNavigate,
+    Helmet, lazy
+} from "libraries";
+import { orderSelector, searchOrder } from "modules";
+import { getOrders } from "services";
+import orderHeader from 'assets/dummy/orderHeader.json';
+
+const PageHeader = lazy(() => import('components/PageHeader'));
+const CustomButton = lazy(() => import('components/Button'));
+const Textfield = lazy(() => import('components/Textfield'));
+const Loading = lazy(() => import('components/Loading'));
+const TableCustom = lazy(() => import('pages/order/TableCustom'));
 
 const Order = () => {
 
+    const dispatch = useDispatch();
+    const orders = useSelector(orderSelector);
+    const navigate = useNavigate();
+    const [ isLoading, setIsLoading ] = useState(false);
+
+    useEffect(() => {
+        const getOrder = async () => {
+            await getOrders({url: '/dummy/order.json'});
+            setIsLoading(false);
+        };
+
+        getOrder();
+    }, []);
+
+    const onChangeSearch = (value) => {
+        dispatch(searchOrder(value));
+        navigate('/order');
+    };
+
     return (
         <Fragment>
-            <h1>Order</h1>
+            <Helmet>
+                <title>DBO CMS - Order</title>
+            </Helmet>
+            <div className="driver-container">
+                <PageHeader title="Order Management" desc="Data order Depoguna Bangunan Online">
+                    <Textfield
+                        onChange={(e) => onChangeSearch(e.target.value)}
+                        placeholder="Cari Order"
+                        icon={<AiOutlineSearch className="icon font-18 color-primary" />}
+                    />
+                    <CustomButton type="primary">
+                        <span className="text-uppercase">Tambah Order</span>
+                        <AiOutlinePlus className="font-18 ml-8p" />
+                    </CustomButton>
+                </PageHeader>
+                {isLoading &&
+                    <Loading />}
+                {!isLoading && orders ? (
+                    <div className={'ml-24p mr-24p'}>
+                        <TableCustom
+                            headers={orderHeader}
+                            bodies={orders}
+                        />
+                    </div>
+                ):(
+                    <div className="alert ml-24p mr-24p">
+                        <h5 className="color-grey font-500">Data yang anda cari tidak ditemukan</h5>
+                    </div>
+                )}
+            </div>
         </Fragment>
     )
 }

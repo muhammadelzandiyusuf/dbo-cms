@@ -2,6 +2,7 @@ import { combineReducers, createStore, thunk, applyMiddleware, compose } from 'l
 import customerReducer from "./customer/reducer";
 import toggleMenuReducer from "./menu/reducer";
 import supplierReducer from "./supplier/reducer";
+import orderReducer from "./order/reducer";
 
 const composeEnhancers = (process.env.NODE_ENV === 'development' ? window['__REDUX_DEVTOOLS_EXTENSION_COMPOSE__'] : null) || compose;
 
@@ -11,7 +12,8 @@ const composeEnhancers = (process.env.NODE_ENV === 'development' ? window['__RED
 export const reducer = combineReducers({
     customer: customerReducer,
     menu: toggleMenuReducer,
-    supplier: supplierReducer
+    supplier: supplierReducer,
+    order: orderReducer
 });
 
 /**
@@ -27,6 +29,7 @@ export const store = createStore(reducer, composeEnhancers(
 export * from './customer/action';
 export * from './menu/action';
 export * from './supplier/action';
+export * from './order/action';
 
 /**
  * selector
@@ -34,3 +37,4 @@ export * from './supplier/action';
 export * from './customer/selector';
 export * from './menu/selector';
 export * from './supplier/selector';
+export * from './order/selector';

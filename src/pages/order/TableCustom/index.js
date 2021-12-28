@@ -1,10 +1,11 @@
-import { useLocation, AiOutlineEdit, BsTrash } from 'libraries';
-import { getSliceData, getIdentityFromHref } from "utils";
+import { useLocation, BiDetail } from 'libraries';
+import { getSliceData, getIdentityFromHref, convertDate } from "utils";
+import NumberFormat from 'react-number-format';
 import 'assets/scss/tableCustom.scss';
 
 import Pagination from 'components/Pagination';
 
-const TableCustom = ({headers, bodies, handleShowDelete, handleShowFormEdit}) => {
+const TableCustom = ({headers, bodies, handleDetail}) => {
 
     const location = useLocation();
     const params = new URLSearchParams(location.search);
@@ -28,19 +29,20 @@ const TableCustom = ({headers, bodies, handleShowDelete, handleShowFormEdit}) =>
                         const identity = getIdentityFromHref(body.href);
                         return (
                             <tr key={index}>
-                                <td>{body.name}</td>
-                                <td>{body.code}</td>
+                                <td>{body.orderNumber}</td>
+                                <td>{body.user.firstName} {body.user.lastName}</td>
+                                <td>{body.payment.paymentMethod.name}</td>
+                                <td>{convertDate(body.created)}</td>
+                                <td>
+                                    <NumberFormat value={body.productHighlight.grandTotal} displayType={'text'}
+                                                  thousandSeparator={true} prefix={'Rp. '} decimalScale={0} />
+                                </td>
                                 <td>
                                     <span
-                                        onClick={() => handleShowFormEdit(identity)}
-                                        className={'mr-16p cursor-pointer'}>
-                                        <AiOutlineEdit className={'icon'} /> Edit
-                                    </span>
-                                    <span
-                                        onClick={() => handleShowDelete(identity)}
-                                        className={'cursor-pointer'}
+                                        onClick={() => handleDetail(identity)}
+                                        className={'mr-16p cursor-pointer'}
                                     >
-                                        <BsTrash className={'icon'} /> Delete
+                                        <BiDetail className={'icon'} /> Detail
                                     </span>
                                 </td>
                             </tr>
@@ -60,20 +62,21 @@ const TableCustom = ({headers, bodies, handleShowDelete, handleShowFormEdit}) =>
                     const identity = getIdentityFromHref(body.href);
                     return (
                         <div className={'table-box mt-16p'} key={index}>
-                            <div className={'table-label'}>{body.name}</div>
-                            <div className={'table-label'}>{body.code}</div>
+                            <div className={'table-label'}>{body.orderNumber}</div>
+                            <div className={'table-label'}>{body.user.firstName} {body.user.lastName}</div>
+                            <div className={'table-label'}>{body.payment.paymentMethod.name}}</div>
+                            <div className={'table-label'}>{convertDate(body.created)}</div>
+                            <div className={'table-label'}>
+                                <NumberFormat value={body.productHighlight.grandTotal} displayType={'text'}
+                                              thousandSeparator={true} prefix={'Rp. '} decimalScale={0} />
+                            </div>
                             <div className={'table-label'}>
                                 <span
-                                    onClick={() => handleShowFormEdit(identity)}
-                                    className={'mr-16p cursor-pointer'}>
-                                        <AiOutlineEdit className={'icon'} /> Edit
-                                    </span>
-                                <span
-                                    onClick={() => handleShowDelete(identity)}
-                                    className={'cursor-pointer'}
+                                    onClick={() => handleDetail(identity)}
+                                    className={'mr-16p cursor-pointer'}
                                 >
-                                        <BsTrash className={'icon'} /> Delete
-                                </span>
+                                        <BiDetail className={'icon'} /> Detail
+                                    </span>
                             </div>
                         </div>
                     )

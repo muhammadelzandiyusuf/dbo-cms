@@ -1,26 +1,26 @@
 import actionType from "./actionType";
 
-export const getSupplier = (customer) => ({
+export const getSupplier = (supplier) => ({
     type: actionType.GET_SUPPLIER,
-    data: customer
+    data: supplier
 });
 
-export const postSupplier = (customer) => ({
+export const postSupplier = (supplier) => ({
     type: actionType.POST_SUPPLIER,
-    data: customer
+    data: supplier
 });
 
-export const deleteSupplier = (customer) => ({
+export const deleteSupplier = (supplier) => ({
     type: actionType.DELETE_SUPPLIER,
-    data: customer
+    data: supplier
 });
 
-export const updateSupplier = (customer) => ({
+export const updateSupplier = (supplier) => ({
     type: actionType.UPDATE_SUPPLIER,
-    data: customer
+    data: supplier
 });
 
-export const searchSupplier = (customer) => ({
+export const searchSupplier = (supplier) => ({
     type: actionType.SEARCH_SUPPLIER,
-    data: customer
+    data: supplier
 });

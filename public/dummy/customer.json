@@ -1,6 +1,6 @@
 [
   {
-    "href": "https://api.kitchenart.dev/uam/customer/risangpratama/",
+    "href": "http://localhost:300/customer/risangpratama/",
     "firstName": "Risang",
     "lastName": "Pratama",
     "email": "risang.pratama@gmail.com",
@@ -11,7 +11,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/risangpratama-2/",
+    "href": "http://localhost:300/customer/risangpratama-2/",
     "firstName": "Risang",
     "lastName": "Pratama",
     "email": "risang.pratamas@gmail.com",
@@ -22,7 +22,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/maldininabil/",
+    "href": "http://localhost:300/customer/maldininabil/",
     "firstName": "Maldini",
     "lastName": "Nabileee",
     "email": "maldini.nabil@gmail.com",
@@ -33,7 +33,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/maldininabil26/",
+    "href": "http://localhost:300/customer/maldininabil26/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "maldininabil27@gmail.com",
@@ -44,7 +44,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/marthadoe/",
+    "href": "http://localhost:300/customer/marthadoe/",
     "firstName": "Marthas",
     "lastName": "Doeses",
     "email": "martha.doe@gmail.com",
@@ -55,7 +55,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/maldini/",
+    "href": "http://localhost:300/customer/maldini/",
     "firstName": "maldini",
     "lastName": "",
     "email": "maldini@gmail.com",
@@ -66,7 +66,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/aranotare/",
+    "href": "http://localhost:300/customer/aranotare/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "aranotare@gmail.com",
@@ -77,7 +77,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/pwadinda/",
+    "href": "http://localhost:300/customer/pwadinda/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "pwadinda@gmail.com",
@@ -88,7 +88,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/ademaulana/",
+    "href": "http://localhost:300/customer/ademaulana/",
     "firstName": "Ade",
     "lastName": "Maulana",
     "email": "ade.maulana23@gmail.com",
@@ -99,7 +99,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/maldininabil-2/",
+    "href": "http://localhost:300/customer/maldininabil-2/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "maldininabil@gmail.com",
@@ -110,7 +110,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/santunmuara/",
+    "href": "http://localhost:300/customer/santunmuara/",
     "firstName": "Juan",
     "lastName": "Juan",
     "email": "santun.muara@gmail.com",
@@ -121,7 +121,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/miyyazawa/",
+    "href": "http://localhost:300/customer/miyyazawa/",
     "firstName": "Miyya",
     "lastName": "Zawa",
     "email": "miyyazawa@gmail.com",
@@ -132,7 +132,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/muhammadelzandi/",
+    "href": "http://localhost:300/customer/muhammadelzandi/",
     "firstName": "Muhammad",
     "lastName": "Elzandi",
     "email": "muhammad@gmail.com",
@@ -143,7 +143,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/ademaulana-2/",
+    "href": "http://localhost:300/customer/ademaulana-2/",
     "firstName": "Ade",
     "lastName": "Maulana",
     "email": "ade.maulana@gmail.com",
@@ -154,7 +154,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/christopheralgbhdhehfdgchuisky/",
+    "href": "http://localhost:300/customer/christopheralgbhdhehfdgchuisky/",
     "firstName": "Christopher",
     "lastName": "Huisky",
     "email": "rxktuxjijn@tfbnw.net",
@@ -165,7 +165,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/cisaruapuncakland/",
+    "href": "http://localhost:300/customer/cisaruapuncakland/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "cisarua@gmail.com",
@@ -176,7 +176,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/sepupujauhnyaironman/",
+    "href": "http://localhost:300/customer/sepupujauhnyaironman/",
     "firstName": "Maldini",
     "lastName": "Nabil",
     "email": "sepupujauh@gmail.com",
@@ -187,7 +187,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/aceportgas1997/",
+    "href": "http://localhost:300/customer/aceportgas1997/",
     "firstName": "Irpan",
     "lastName": "Mulyana",
     "email": "aceportgas1997@gmail.com",
@@ -198,7 +198,7 @@
     "isActive": true
   },
   {
-    "href": "https://api.kitchenart.dev/uam/customer/ademaulana-3/",
+    "href": "http://localhost:300/customer/ademaulana-3/",
     "firstName": "Ade",
     "lastName": "Maulana",
     "email": "ade.maulana@milan.com",

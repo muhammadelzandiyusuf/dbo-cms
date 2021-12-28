@@ -6,7 +6,6 @@ import { supplierSelector, searchSupplier } from "modules";
 import { getIdentityFromHref } from "utils";
 import {notify} from "react-notify-toast";
 import supplierHeader from 'assets/dummy/supplierHeader.json';
-import customerHeader from "../../assets/dummy/customerHeader.json";
 
 const PageHeader = lazy(() => import('components/PageHeader'));
 const CustomButton = lazy(() => import('components/Button'));
@@ -22,7 +21,7 @@ const Supplier = () => {
     const dispatch = useDispatch();
     const suppliers = useSelector(supplierSelector);
     const navigate = useNavigate();
-    const [ isLoading, setIsLoading ] = useState(true);
+    const [ isLoading, setIsLoading ] = useState(false);
     const [ supplierDetail, setSupplierDetail ] = useState([]);
     const [ isDeleteShow, setIsDeleteShow ] = useState(false);
     const [ isAddForm, setIsAddForm ] = useState(false);
