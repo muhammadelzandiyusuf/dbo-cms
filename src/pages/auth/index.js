@@ -16,7 +16,6 @@ const Auth = () => {
         postLogin(payload).then(response => {
             const dataResponse = response;
             const findAccount = dataResponse.filter(account => account.email === data.email && account.password === data.password);
-            console.log('findAccount', data);
             if (findAccount.length > 0) {
                 setCookie("dbo", findAccount[0].username, {
                     path: "/",
@@ -24,7 +23,13 @@ const Auth = () => {
                     sameSite: true,
                     secure: true
                 });
-                notify.show(`Selamat datang di DBO CMS ${cookies.dbo}`, 'success');
+                const username = cookies.dbo;
+                if (!username) {
+                    notify.show(`Selamat datang di DBO CMS`, 'success');
+                }
+                else {
+                    notify.show(`Selamat datang di DBO CMS ${username}`, 'success');
+                }
             }
             else {
                 notify.show('Periksa email atau password', 'error');
