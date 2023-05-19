@@ -13,7 +13,9 @@ test('pageheader render data correctly', () => {
         </Pageheader>,
     );
 
+    // eslint-disable-next-line testing-library/prefer-presence-queries
     expect(screen.queryByText(title)).toBeTruthy();
+    // eslint-disable-next-line testing-library/prefer-presence-queries
     expect(screen.queryByText(desc)).toBeTruthy();
     expect(screen.getByTestId('button')).toHaveClass(typeButton);
 });

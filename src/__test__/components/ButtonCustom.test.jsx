@@ -10,6 +10,8 @@ test('button render data correctly', () => {
         <CustomButton children={children} type={type} />,
     );
 
+
+    // eslint-disable-next-line testing-library/prefer-presence-queries
     expect(screen.queryByText(children)).toBeTruthy();
     expect(screen.getByTestId('button')).toHaveClass(type);
 });

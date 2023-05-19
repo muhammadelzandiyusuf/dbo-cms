@@ -1,7 +1,7 @@
-import { Fragment, lazy, Helmet, useForm, Form, Container, Row, Col, Button } from "libraries";
-import { postLogin } from "services";
-import { useCookies } from 'react-cookie';
-import { notify } from "react-notify-toast";
+import {Button, Col, Container, Form, Fragment, Helmet, lazy, Row, useForm} from "libraries";
+import {postLogin} from "services";
+import {useCookies} from 'react-cookie';
+import {notify} from "react-notify-toast";
 import "./auth.scss";
 
 const PageHeader = lazy(() => import('components/PageHeader'));
@@ -14,8 +14,7 @@ const Auth = () => {
     const onSubmit = (data) => {
         const payload = { url: '/dummy/auth.json', body: { email: data.email, password: data.password } };
         postLogin(payload).then(response => {
-            const dataResponse = response;
-            const findAccount = dataResponse.filter(account => account.email === data.email && account.password === data.password);
+            const findAccount = response.filter(account => account.email === data.email && account.password === data.password);
             if (findAccount.length > 0) {
                 setCookie("dbo", findAccount[0].username, {
                     path: "/",
