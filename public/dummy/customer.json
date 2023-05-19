@@ -1,0 +1,211 @@
+[
+  {
+    "href": "http://localhost:300/customer/risangpratama/",
+    "firstName": "Risang",
+    "lastName": "Pratama",
+    "email": "risang.pratama@gmail.com",
+    "phoneNumber": "089611654298",
+    "birthDate": "1995-07-03",
+    "dateJoined": "2021-03-02T08:34:45.140273+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/risangpratama-2/",
+    "firstName": "Risang",
+    "lastName": "Pratama",
+    "email": "risang.pratamas@gmail.com",
+    "phoneNumber": "085778216888",
+    "birthDate": "1993-04-04",
+    "dateJoined": "2021-03-06T15:37:27.442409+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/maldininabil/",
+    "firstName": "Maldini",
+    "lastName": "Nabileee",
+    "email": "maldini.nabil@gmail.com",
+    "phoneNumber": "087884548888",
+    "birthDate": "1997-09-02",
+    "dateJoined": "2021-03-08T10:54:36.107184+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/maldininabil26/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "maldininabil27@gmail.com",
+    "phoneNumber": "0895336941857",
+    "birthDate": "2001-10-15",
+    "dateJoined": "2021-03-08T18:58:27.645901+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/marthadoe/",
+    "firstName": "Marthas",
+    "lastName": "Doeses",
+    "email": "martha.doe@gmail.com",
+    "phoneNumber": "085717896386",
+    "birthDate": "1998-03-16",
+    "dateJoined": "2021-03-22T08:04:01.545106+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/maldini/",
+    "firstName": "maldini",
+    "lastName": "",
+    "email": "maldini@gmail.com",
+    "phoneNumber": "08987654321",
+    "birthDate": "1991-06-12",
+    "dateJoined": "2021-05-28T14:44:28.662165+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/aranotare/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "aranotare@gmail.com",
+    "phoneNumber": "0895704298457",
+    "birthDate": "1997-06-26",
+    "dateJoined": "2021-06-11T14:03:49.135545+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/pwadinda/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "pwadinda@gmail.com",
+    "phoneNumber": "0895336941806",
+    "birthDate": "1995-06-14",
+    "dateJoined": "2021-06-11T15:32:06.441133+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/ademaulana/",
+    "firstName": "Ade",
+    "lastName": "Maulana",
+    "email": "ade.maulana23@gmail.com",
+    "phoneNumber": "081287928318",
+    "birthDate": "1989-03-09",
+    "dateJoined": "2021-06-11T16:57:11.287710+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/maldininabil-2/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "maldininabil@gmail.com",
+    "phoneNumber": "085156008457",
+    "birthDate": "1999-02-03",
+    "dateJoined": "2021-09-10T13:49:26.512930+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/santunmuara/",
+    "firstName": "Juan",
+    "lastName": "Juan",
+    "email": "santun.muara@gmail.com",
+    "phoneNumber": "085162526067",
+    "birthDate": "1945-08-17",
+    "dateJoined": "2021-09-10T16:10:47.144056+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/miyyazawa/",
+    "firstName": "Miyya",
+    "lastName": "Zawa",
+    "email": "miyyazawa@gmail.com",
+    "phoneNumber": "087876425988",
+    "birthDate": "1997-07-09",
+    "dateJoined": "2021-09-10T21:38:40.837229+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/muhammadelzandi/",
+    "firstName": "Muhammad",
+    "lastName": "Elzandi",
+    "email": "muhammad@gmail.com",
+    "phoneNumber": "089611654298",
+    "birthDate": "1997-03-27",
+    "dateJoined": "2021-09-13T16:15:25.618179+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/ademaulana-2/",
+    "firstName": "Ade",
+    "lastName": "Maulana",
+    "email": "ade.maulana@gmail.com",
+    "phoneNumber": "081287928317",
+    "birthDate": "1992-07-09",
+    "dateJoined": "2021-09-17T16:38:13.064554+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/christopheralgbhdhehfdgchuisky/",
+    "firstName": "Christopher",
+    "lastName": "Huisky",
+    "email": "rxktuxjijn@tfbnw.net",
+    "phoneNumber": "089611654298",
+    "birthDate": "1997-03-27",
+    "dateJoined": "2021-09-28T16:10:28.207820+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/cisaruapuncakland/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "cisarua@gmail.com",
+    "phoneNumber": "089611654302",
+    "birthDate": "1997-07-09",
+    "dateJoined": "2021-09-30T15:09:36.628086+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/sepupujauhnyaironman/",
+    "firstName": "Maldini",
+    "lastName": "Nabil",
+    "email": "sepupujauh@gmail.com",
+    "phoneNumber": "089611654290",
+    "birthDate": "1996-07-04",
+    "dateJoined": "2021-09-30T16:10:08.988830+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/aceportgas1997/",
+    "firstName": "Irpan",
+    "lastName": "Mulyana",
+    "email": "aceportgas1997@gmail.com",
+    "phoneNumber": "085693142229",
+    "birthDate": "1997-03-27",
+    "dateJoined": "2021-10-01T16:22:50.598432+07:00",
+    "image": "/images/profile2.jpg",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:300/customer/ademaulana-3/",
+    "firstName": "Ade",
+    "lastName": "Maulana",
+    "email": "ade.maulana@milan.com",
+    "phoneNumber": "081287928320",
+    "birthDate": "1997-03-27",
+    "dateJoined": "2021-12-17T10:39:28.511463+07:00",
+    "image": "/images/profile1.jpg",
+    "isActive": true
+  }
+]

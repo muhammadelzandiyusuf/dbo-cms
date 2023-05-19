@@ -1,0 +1,50 @@
+$defaultPrimary : #ff4646;
+$defaultWhite : #ffffff;
+$defaultBlack : #333333;
+$defaultGrey : #aaaaaa;
+$defaultBackground : #fafafa;
+
+
+:root{
+  //color text
+  --primary-text-color : #{$defaultPrimary};
+  --white-text-color: #{$defaultWhite};
+  --black-text-color: #{$defaultBlack};
+  --grey-text-color: #{$defaultGrey};
+  //end color text
+
+  //background color
+  --white-background-color : #{$defaultWhite};
+  --default-background-color : #{$defaultBackground};
+  //end background color
+
+  //button
+  --primary-background-button : #{$defaultPrimary};
+  --primary-border-button : #{$defaultPrimary};
+  //end button
+
+  //font size
+  --font-size-10 : 10px;
+  --font-size-12 : 12px;
+  --font-size-14 : 14px;
+  --font-size-16 : 16px;
+  --font-size-18 : 18px;
+  --font-size-20 : 20px;
+  --font-size-22 : 22px;
+  --font-size-24 : 24px;
+  --font-size-26 : 26px;
+  --font-size-28 : 28px;
+  --font-size-30 : 30px;
+  --font-size-32 : 32px;
+  --font-size-34 : 34px;
+  --font-size-36 : 36px;
+  //end font size
+
+  //font weight
+  --font-weight-300 : 300;
+  --font-weight-400 : 400;
+  --font-weight-500 : 500;
+  --font-weight-600 : 600;
+  --font-weight-700 : 700;
+  //end font weight
+}

@@ -1,0 +1,34 @@
+@import '../../assets/scss/const';
+
+.pageheader{
+  margin: 24px;
+  padding: 16px;
+  background-color: var(--white-background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  .pageheader-children{
+    display: flex;
+    gap: 12px;
+  }
+  @media(max-width: $resolution-mobile){
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    .pageheader-title{
+      margin-bottom: 16px;
+      h1{
+        font-size: 18px !important;
+        line-height: 1;
+      }
+      h5{
+        font-size: 14px !important;
+      }
+    }
+    .pageheader-children{
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+}

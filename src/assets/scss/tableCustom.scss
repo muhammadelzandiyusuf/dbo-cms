@@ -1,0 +1,40 @@
+@import 'const';
+
+.table {
+  justify-content: space-between;
+  align-items: center;
+  .table-box {
+    padding: 32px;
+    background-color: var(--white-background-color);
+    border-radius: 8px;
+    width: 100%;
+    .table-label {
+      margin-bottom: 8px;
+    }
+  }
+  table {
+    width: 100%;
+    border-spacing: 0;
+    thead {
+      background-color: var(--white-background-color);
+      border-radius: 8px;
+      th {
+        text-align: left;
+        padding: 28px;
+      }
+    }
+    tbody {
+      background-color: var(--white-background-color);
+      border-radius: 8px;
+      td {
+        text-align: left;
+        padding: 24px 28px;
+      }
+    }
+    @media(max-width: $resolution-mobile){
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+    }
+  }
+}

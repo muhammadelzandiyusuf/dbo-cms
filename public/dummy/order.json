@@ -1,0 +1,1690 @@
+[
+  {
+    "href": "http://localhost:3000/order/WEB21121063530/",
+    "orderNumber": "WEB21121063530",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Risang",
+      "lastName": "Pratama",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BNI",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-12-11T16:30:36.388764+07:00",
+      "tenor": 6,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21121063530-1/",
+      "orderItemNumber": "WEB21121063530-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-10T15:41:23.222500+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 7866000.0,
+    "status": "paid",
+    "created": "2021-12-10T15:41:23.117728+07:00",
+    "notes": "",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21121018633/",
+    "orderNumber": "WEB21121018633",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Maldini",
+      "lastName": "Pali",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-11T16:30:30.744371+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21121018633-1/",
+      "orderItemNumber": "WEB21121018633-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-10T15:40:29.521860+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 11546000.0,
+    "status": "paid",
+    "created": "2021-12-10T15:40:29.424701+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21121048750/",
+    "orderNumber": "WEB21121048750",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Nabil",
+      "lastName": "Maldini",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BCA",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-12-10T23:01:58.082746+07:00",
+      "tenor": 6,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21121048750-1/",
+      "orderItemNumber": "WEB21121048750-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-10T15:39:03.907155+07:00",
+      "hasReview": false,
+      "completedDate": "2021-12-10T16:37:57.610238+07:00",
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 7866000.0,
+    "status": "paid",
+    "created": "2021-12-10T15:39:03.712818+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21121022351/",
+    "orderNumber": "WEB21121022351",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Irpan",
+      "lastName": "Mulyana",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-11T16:30:30.751549+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21121022351-1/",
+      "orderItemNumber": "WEB21121022351-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-10T15:37:08.413774+07:00",
+      "hasReview": true,
+      "completedDate": "2021-12-10T16:32:10.510445+07:00",
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 11546000.0,
+    "status": "paid",
+    "created": "2021-12-10T15:37:08.316891+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21121031158/",
+    "orderNumber": "WEB21121031158",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Ade",
+      "lastName": "Maulana",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": null,
+      "tenor": 0,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21121031158-1/",
+      "orderItemNumber": "WEB21121031158-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-12-10T15:34:53.413372+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 7866000.0,
+    "status": "cancelled",
+    "created": "2021-12-10T15:34:53.310561+07:00",
+    "notes": "pembayaran tidak berhasil",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120734182/",
+    "orderNumber": "WEB21120734182",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Elzandi",
+      "lastName": "Yusuf",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-08T16:28:45.606449+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120734182-1/",
+      "orderItemNumber": "WEB21120734182-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-07T09:39:57.623907+07:00",
+      "hasReview": true,
+      "completedDate": "2021-12-08T12:14:36.912396+07:00",
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 11546000.0,
+    "status": "paid",
+    "created": "2021-12-07T09:39:57.523242+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120625099/",
+    "orderNumber": "WEB21120625099",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Muhammad",
+      "lastName": "Elzandi",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BNI",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-12-07T16:27:55.825826+07:00",
+      "tenor": 12,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120625099-1/",
+      "orderItemNumber": "WEB21120625099-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-06T15:42:04.508378+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 7866000.0,
+    "status": "paid",
+    "created": "2021-12-06T15:42:04.322498+07:00",
+    "notes": "Salah alamat",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120628604/",
+    "orderNumber": "WEB21120628604",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Rico",
+      "lastName": "Aditya",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-07T16:17:41.159608+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120628604-1/",
+      "orderItemNumber": "WEB21120628604-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-06T11:49:15.619120+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 11546000.0,
+    "status": "paid",
+    "created": "2021-12-06T11:49:15.525090+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120695986/",
+    "orderNumber": "WEB21120695986",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Naser",
+      "lastName": "Abdul",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-07T16:17:41.733199+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120695986-1/",
+      "orderItemNumber": "WEB21120695986-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-06T11:26:13.812544+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 64000.0,
+    "grandTotal": 11564000.0,
+    "status": "paid",
+    "created": "2021-12-06T11:26:13.720127+07:00",
+    "notes": "Pesanan belum dikirim",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120694806/",
+    "orderNumber": "WEB21120694806",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Fikly",
+      "lastName": "Pratama",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BCA",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-12-06T23:02:07.208381+07:00",
+      "tenor": 3,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120694806-1/",
+      "orderItemNumber": "WEB21120694806-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-06T11:15:37.607464+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 11546000.0,
+    "status": "paid",
+    "created": "2021-12-06T11:15:37.311419+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120640538/",
+    "orderNumber": "WEB21120640538",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Reksi",
+      "lastName": "Permadi",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-07T16:17:41.927917+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120640538-1/",
+      "orderItemNumber": "WEB21120640538-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-06T10:59:17.011003+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 46000.0,
+    "grandTotal": 7866000.0,
+    "status": "paid",
+    "created": "2021-12-06T10:59:16.908859+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120371101/",
+    "orderNumber": "WEB21120371101",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Revzan",
+      "lastName": "Fadilah",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BCA",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-12-03T23:02:55.786569+07:00",
+      "tenor": 12,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120371101-1/",
+      "orderItemNumber": "WEB21120371101-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-03T15:13:16.517164+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 64000.0,
+    "grandTotal": 7884000.0,
+    "status": "paid",
+    "created": "2021-12-03T15:13:16.412766+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21120315643/",
+    "orderNumber": "WEB21120315643",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Mulyadi",
+      "lastName": "Indonesia",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-12-04T16:23:10.619732+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21120315643-1/",
+      "orderItemNumber": "WEB21120315643-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 3680000.0,
+      "grandTotal": 7820000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-12-03T15:10:05.007775+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7820000.0,
+    "discount": 0.0,
+    "shippingCost": 48000.0,
+    "grandTotal": 7868000.0,
+    "status": "paid",
+    "created": "2021-12-03T15:10:04.818844+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112929186/",
+    "orderNumber": "WEB21112929186",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Yayan",
+      "lastName": "Nugraha",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Mandiri VA",
+        "type": "Bank Transfer"
+      },
+      "paymentDate": null,
+      "tenor": 0,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112929186-1/",
+      "orderItemNumber": "WEB21112929186-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-11-29T23:31:14.313333+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 20000.0,
+    "grandTotal": 11520000.0,
+    "status": "cancelled",
+    "created": "2021-11-29T23:31:14.215245+07:00",
+    "notes": "anda telah melewati batas waktu pembayaran",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112958430/",
+    "orderNumber": "WEB21112958430",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Ayu",
+      "lastName": "Har",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Mandiri",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-11-30T16:26:13.909799+07:00",
+      "tenor": 24,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112958430-1/",
+      "orderItemNumber": "WEB21112958430-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXJ",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXJ",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 0.0,
+      "discount": 0.0,
+      "grandTotal": 11500000.0,
+      "shipment": {
+        "packageOrderNumber": "PO21113061410",
+        "deliveryOrderNumber": "",
+        "logisticOrderNumber": "",
+        "receivedDate": null
+      },
+      "meta": {
+        "services": [],
+        "discounts": [],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "processed",
+      "reason": "",
+      "created": "2021-11-29T13:30:43.021057+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 11500000.0,
+    "discount": 0.0,
+    "shippingCost": 20000.0,
+    "grandTotal": 11520000.0,
+    "status": "paid",
+    "created": "2021-11-29T13:30:42.915141+07:00",
+    "notes": "",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112992918/",
+    "orderNumber": "WEB21112992918",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Fathan",
+      "lastName": "Muhammad",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BNI",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-11-30T16:26:55.636891+07:00",
+      "tenor": 3,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112992918-1/",
+      "orderItemNumber": "WEB21112992918-1",
+      "productName": "Built in Gas Hob 90 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH940MSTIXF",
+      "productFullName": "Ariston Built in Gas Hob 90 Cm PH940MSTIXF",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11500000.0,
+      "quantity": 1,
+      "subtotal": 11500000.0,
+      "serviceTotal": 1495000.0,
+      "discount": 3680000.0,
+      "grandTotal": 9315000.0,
+      "shipment": {
+        "packageOrderNumber": "PO21120623481",
+        "deliveryOrderNumber": "",
+        "logisticOrderNumber": "",
+        "receivedDate": null
+      },
+      "meta": {
+        "services": [
+          {
+            "type": "extended_warranty",
+            "price": 1495000.0,
+            "period": 2,
+            "typeLabel": "Extended Warranty"
+          }
+        ],
+        "discounts": [
+          {
+            "id": "normal-discount",
+            "name": "Normal Discount",
+            "type": "normal_discount",
+            "amount": 3680000.0,
+            "discount": 32.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "Tes",
+      "status": "processed",
+      "reason": "",
+      "created": "2021-11-29T13:28:10.070748+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 9315000.0,
+    "discount": 0.0,
+    "shippingCost": 61875.0,
+    "grandTotal": 9376875.0,
+    "status": "paid",
+    "created": "2021-11-29T13:28:09.908673+07:00",
+    "notes": "",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112932136/",
+    "orderNumber": "WEB21112932136",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Fatir",
+      "lastName": "Iskandar",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-11-30T16:26:13.916906+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112932136-1/",
+      "orderItemNumber": "WEB21112932136-1",
+      "productName": "Artisan Series 4.8L Tilt-Head Stand Mixer",
+      "productBrand": "KitchenAid",
+      "productCode": "5KSM150PSEAC",
+      "productFullName": "KitchenAid Artisan Series 4.8L Tilt-Head Stand Mixer 5KSM150PSEAC",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 10079000.0,
+      "quantity": 1,
+      "subtotal": 10079000.0,
+      "serviceTotal": 0.0,
+      "discount": 201580.0,
+      "grandTotal": 9877420.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 201580.0,
+            "discount": 2.0
+          }
+        ],
+        "preOrder": true,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-11-29T13:26:18.207124+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 9877420.0,
+    "discount": 0.0,
+    "shippingCost": 25000.0,
+    "grandTotal": 9902420.0,
+    "status": "paid",
+    "created": "2021-11-29T13:26:18.023883+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112982194/",
+    "orderNumber": "WEB21112982194",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Dafa",
+      "lastName": "Mili",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BCA",
+        "type": "Installment"
+      },
+      "paymentDate": "2021-11-29T23:02:27.241973+07:00",
+      "tenor": 12,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112982194-1/",
+      "orderItemNumber": "WEB21112982194-1",
+      "productName": "Built in Gas Hob 60 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH640MSTIX",
+      "productFullName": "Ariston Built in Gas Hob 60 Cm PH640MSTIX",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11000000.0,
+      "quantity": 2,
+      "subtotal": 22000000.0,
+      "serviceTotal": 0.0,
+      "discount": 6600000.0,
+      "grandTotal": 15400000.0,
+      "shipment": {
+        "packageOrderNumber": "PO21113067277",
+        "deliveryOrderNumber": "",
+        "logisticOrderNumber": "",
+        "receivedDate": null
+      },
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 6600000.0,
+            "discount": 30.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "processed",
+      "reason": "",
+      "created": "2021-11-29T13:08:24.912408+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 15400000.0,
+    "discount": 0.0,
+    "shippingCost": 87000.0,
+    "grandTotal": 15487000.0,
+    "status": "paid",
+    "created": "2021-11-29T13:08:24.712716+07:00",
+    "notes": "",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112987739/",
+    "orderNumber": "WEB21112987739",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Milani",
+      "lastName": "Mulyani",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-11-30T16:26:14.413050+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112987739-1/",
+      "orderItemNumber": "WEB21112987739-1",
+      "productName": "Artisan Series 4.8L Tilt-Head Stand Mixer",
+      "productBrand": "KitchenAid",
+      "productCode": "5KSM150PSEAC",
+      "productFullName": "KitchenAid Artisan Series 4.8L Tilt-Head Stand Mixer 5KSM150PSEAC",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 10079000.0,
+      "quantity": 2,
+      "subtotal": 20158000.0,
+      "serviceTotal": 0.0,
+      "discount": 403160.0,
+      "grandTotal": 19754840.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 403160.0,
+            "discount": 2.0
+          }
+        ],
+        "preOrder": true,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-11-29T13:05:28.907295+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 19754840.0,
+    "discount": 0.0,
+    "shippingCost": 25000.0,
+    "grandTotal": 19779840.0,
+    "status": "paid",
+    "created": "2021-11-29T13:05:28.708680+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112646227/",
+    "orderNumber": "WEB21112646227",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Adit",
+      "lastName": "Nugroho",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-11-27T16:18:28.822859+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112646227-1/",
+      "orderItemNumber": "WEB21112646227-1",
+      "productName": "Built in Gas Hob 60 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH640MSTIX",
+      "productFullName": "Ariston Built in Gas Hob 60 Cm PH640MSTIX",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11000000.0,
+      "quantity": 1,
+      "subtotal": 11000000.0,
+      "serviceTotal": 0.0,
+      "discount": 3300000.0,
+      "grandTotal": 7700000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 3300000.0,
+            "discount": 30.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "paid",
+      "reason": "",
+      "created": "2021-11-26T16:31:10.622591+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": true
+    },
+    "totalItems": 1,
+    "subtotal": 7700000.0,
+    "discount": 0.0,
+    "shippingCost": 45000.0,
+    "grandTotal": 7745000.0,
+    "status": "paid",
+    "created": "2021-11-26T16:31:10.513752+07:00",
+    "notes": "",
+    "isCancelable": true
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112641135/",
+    "orderNumber": "WEB21112641135",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Dinda",
+      "lastName": "Adinda",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "BCA",
+        "type": "Installment"
+      },
+      "paymentDate": null,
+      "tenor": 6,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112641135-1/",
+      "orderItemNumber": "WEB21112641135-1",
+      "productName": "Built in Gas Hob 60 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH640MSTIX",
+      "productFullName": "Ariston Built in Gas Hob 60 Cm PH640MSTIX",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11000000.0,
+      "quantity": 1,
+      "subtotal": 11000000.0,
+      "serviceTotal": 0.0,
+      "discount": 3300000.0,
+      "grandTotal": 7700000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 3300000.0,
+            "discount": 30.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-11-26T16:27:52.526627+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 7700000.0,
+    "discount": 0.0,
+    "shippingCost": 53000.0,
+    "grandTotal": 7753000.0,
+    "status": "cancelled",
+    "created": "2021-11-26T16:27:52.409362+07:00",
+    "notes": "pembayaran tidak berhasil",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21112618958/",
+    "orderNumber": "WEB21112618958",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Dima",
+      "lastName": "Cahyono",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Mandiri VA",
+        "type": "Bank Transfer"
+      },
+      "paymentDate": null,
+      "tenor": 0,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21112618958-1/",
+      "orderItemNumber": "WEB21112618958-1",
+      "productName": "Built in Gas Hob 60 Cm",
+      "productBrand": "Ariston",
+      "productCode": "PH640MSTIX",
+      "productFullName": "Ariston Built in Gas Hob 60 Cm PH640MSTIX",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 11000000.0,
+      "quantity": 3,
+      "subtotal": 33000000.0,
+      "serviceTotal": 0.0,
+      "discount": 9900000.0,
+      "grandTotal": 23100000.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 9900000.0,
+            "discount": 30.0
+          }
+        ],
+        "preOrder": false,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-11-26T16:26:23.213908+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 23100000.0,
+    "discount": 0.0,
+    "shippingCost": 87000.0,
+    "grandTotal": 23187000.0,
+    "status": "cancelled",
+    "created": "2021-11-26T16:26:23.012778+07:00",
+    "notes": "anda telah melewati batas waktu pembayaran",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21111631734/",
+    "orderNumber": "WEB21111631734",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Basuki",
+      "lastName": "Basiki",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Credit Card",
+        "type": "Credit Card"
+      },
+      "paymentDate": "2021-11-17T16:21:52.214774+07:00",
+      "tenor": 0,
+      "status": "paid"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21111631734-1/",
+      "orderItemNumber": "WEB21111631734-1",
+      "productName": "Artisan Series 4.8L Tilt-Head Stand Mixer",
+      "productBrand": "KitchenAid",
+      "productCode": "5KSM150PSEAC",
+      "productFullName": "KitchenAid Artisan Series 4.8L Tilt-Head Stand Mixer 5KSM150PSEAC",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 10079000.0,
+      "quantity": 1,
+      "subtotal": 10079000.0,
+      "serviceTotal": 0.0,
+      "discount": 201580.0,
+      "grandTotal": 9877420.0,
+      "shipment": {
+        "packageOrderNumber": "PO21112666689",
+        "deliveryOrderNumber": "DO21112668881",
+        "logisticOrderNumber": "21BPVRMNZ82W5",
+        "receivedDate": null
+      },
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 201580.0,
+            "discount": 2.0
+          }
+        ],
+        "preOrder": true,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "shipped",
+      "reason": "",
+      "created": "2021-11-16T16:19:46.120478+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 9877420.0,
+    "discount": 0.0,
+    "shippingCost": 20000.0,
+    "grandTotal": 9897420.0,
+    "status": "paid",
+    "created": "2021-11-16T16:19:45.935197+07:00",
+    "notes": "",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21111682273/",
+    "orderNumber": "WEB21111682273",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Lufy",
+      "lastName": "Susanto",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Mandiri VA",
+        "type": "Bank Transfer"
+      },
+      "paymentDate": null,
+      "tenor": 0,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21111682273-1/",
+      "orderItemNumber": "WEB21111682273-1",
+      "productName": "Artisan Series 4.8L Tilt-Head Stand Mixer",
+      "productBrand": "KitchenAid",
+      "productCode": "5KSM150PSEAC",
+      "productFullName": "KitchenAid Artisan Series 4.8L Tilt-Head Stand Mixer 5KSM150PSEAC",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 10079000.0,
+      "quantity": 1,
+      "subtotal": 10079000.0,
+      "serviceTotal": 0.0,
+      "discount": 201580.0,
+      "grandTotal": 9877420.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 201580.0,
+            "discount": 2.0
+          }
+        ],
+        "preOrder": true,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-11-16T14:37:01.021203+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 9877420.0,
+    "discount": 0.0,
+    "shippingCost": 20000.0,
+    "grandTotal": 9897420.0,
+    "status": "cancelled",
+    "created": "2021-11-16T14:37:00.835594+07:00",
+    "notes": "anda telah melewati batas waktu pembayaran",
+    "isCancelable": false
+  },
+  {
+    "href": "http://localhost:3000/order/WEB21111525422/",
+    "orderNumber": "WEB21111525422",
+    "user": {
+      "href": "http://localhost:3000/user/risangpratama/",
+      "firstName": "Nanang",
+      "lastName": "Maldini",
+      "customerType": "customer",
+      "email": "risang.pratama@muliasuksesjaya.com",
+      "isStaff": true
+    },
+    "payment": {
+      "paymentMethod": {
+        "name": "Mandiri VA",
+        "type": "Bank Transfer"
+      },
+      "paymentDate": null,
+      "tenor": 0,
+      "status": "cancelled"
+    },
+    "productHighlight": {
+      "href": "http://localhost:3000/order-item/WEB21111525422-1/",
+      "orderItemNumber": "WEB21111525422-1",
+      "productName": "Artisan Series 4.8L Tilt-Head Stand Mixer",
+      "productBrand": "KitchenAid",
+      "productCode": "5KSM150PSEAC",
+      "productFullName": "KitchenAid Artisan Series 4.8L Tilt-Head Stand Mixer 5KSM150PSEAC",
+      "productImage": "/images/product.jpg",
+      "weight": 2000.0,
+      "price": 10079000.0,
+      "quantity": 1,
+      "subtotal": 10079000.0,
+      "serviceTotal": 0.0,
+      "discount": 201580.0,
+      "grandTotal": 9877420.0,
+      "shipment": null,
+      "meta": {
+        "services": [],
+        "discounts": [
+          {
+            "id": "event-promo-the-year",
+            "name": "Event Promo The Year",
+            "type": "product_promotion",
+            "amount": 201580.0,
+            "discount": 2.0
+          }
+        ],
+        "preOrder": true,
+        "structure": "stand_alone"
+      },
+      "notes": "",
+      "status": "cancelled",
+      "reason": "",
+      "created": "2021-11-15T10:44:09.631741+07:00",
+      "hasReview": false,
+      "completedDate": null,
+      "isCompletable": false,
+      "isCancelable": false
+    },
+    "totalItems": 1,
+    "subtotal": 9877420.0,
+    "discount": 0.0,
+    "shippingCost": 20000.0,
+    "grandTotal": 9897420.0,
+    "status": "cancelled",
+    "created": "2021-11-15T10:44:09.520919+07:00",
+    "notes": "anda telah melewati batas waktu pembayaran",
+    "isCancelable": false
+  }
+]

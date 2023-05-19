@@ -1,0 +1,74 @@
+[
+  {
+    "href": "http://localhost:3000/supplier/arda/",
+    "name": "Arda(Zhejiang) Electric Co.Ltd",
+    "code": "ARDA",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/bertazzoni/",
+    "name": "Bertazzoni Spa",
+    "code": "BERTAZZONI",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/cucinearte/",
+    "name": "Chinabest Home Appliances Co.Ltd",
+    "code": "CUCINEARTE",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/simfer/",
+    "name": "Fer International",
+    "code": "SIMFER",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/arcair/",
+    "name": "Foshan Shunde Arcair Appliance Co.,Ltd",
+    "code": "ARCAIR",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/germania/",
+    "name": "Germania Home Appliance Co,.Ltd",
+    "code": "GERMANIA",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/ula/",
+    "name": "Heshan ULA Kitchen Utensils Co.Ltd",
+    "code": "ULA",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/ula2/",
+    "name": "Heshan ULA Kitchen Utensils Co.Ltd",
+    "code": "ULA2",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/homs/",
+    "name": "Homs Electrodomestic (Zuhai) Co.Ltd",
+    "code": "HOMS",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/midea/",
+    "name": "Midea Group Water Care Appliances",
+    "code": "MIDEA",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/supor/",
+    "name": "Supor",
+    "code": "SUPOR",
+    "isActive": true
+  },
+  {
+    "href": "http://localhost:3000/supplier/whirlpool-southeast-asia-pteltd/",
+    "name": "Whirlpool Southeast Asia Pte.Ltd",
+    "code": "WHIRLPOOL",
+    "isActive": true
+  }
+]
